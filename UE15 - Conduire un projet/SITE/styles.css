@@ -1,0 +1,167 @@
+body {
+	font-family:'Source code pro', Calibri, serif;
+	margin: 0px;
+	padding: 0px;
+	background-color: #AFAFAF;
+}
+
+nav {
+	width: 100%;
+	background-color: #424558;
+	position: fixed; 
+	font-weight: bold;
+}
+
+nav > ul {
+	margin: 0px;
+	padding: 0px;
+}
+
+nav > ul::after{
+	content: "";
+	display: block;
+	clear: both;
+}
+
+nav > ul > li {
+	float: left;
+	position: relative;
+}
+
+nav > ul > li > a{
+	padding: 20px 30px;
+	color: #FFF;
+}
+
+nav > ul >li:hover a{
+	padding: 15px 30px 20px 30px;
+}
+
+nav li {
+	list-style-type: none;
+}
+
+.submenu {
+	display: none;
+}
+
+nav a {
+	display: inline-block;
+	text-decoration: none;
+}
+
+nav li:hover .submenu {
+	display: inline-block;
+	position: absolute;
+	top: 100%;
+	left: 0px;
+	padding:0px;
+	z-index: 1000;
+}
+
+.submenu li {
+	border-bottom: 1px solid #CCC;	
+}
+
+.submenu li a {
+	padding: 15px 30px;
+	font-size: 15px;
+	color: #222538;
+	width: 270px;
+	background-color: RGBa(252,194,117, 0.9);
+}
+
+.selechover:hover {
+	border-top: 5px solid #FEB803;
+	background-color: RGBa(197, 121, 44, 0.15);
+}
+
+.selechover .submenu {
+	background-color: RGBa(255,146,73);
+}
+
+.submenu li:hover a {
+	color: #EEE;
+	font-weight: bold;
+}
+
+.selechover .submenu li:hover {
+	background-color: RGBa(255, 146, 73);
+}
+
+.table{
+	display: table;
+	margin: 0 auto;
+}
+
+h1 {
+	font-size: 30px;
+	font-family: arial;
+	text-transform: capitalize;	
+}
+
+#bas { 
+	position: fixed; 
+	padding: 10px 10px 10px 10px; 
+	bottom: 0;
+	Left: 0;
+	Width: 100%; 
+	Height: 40px; 
+	background-color: #424558;
+} 
+
+#mention {
+	font-size: 10px;
+	font-family: arial;
+}
+
+#contact {
+	font-size: 20px;
+	font-family: arial;
+	text-transform: capitalize;	
+	padding: 20px;
+}
+
+.mail {
+	padding: 10px 15px;
+	background-color: #FEB803;
+	text-decoration: none;
+	display: table;
+	margin: 0 auto;
+	text-transform: lowercase;
+
+}
+.mail:hover {
+	padding: 15px 20px;	
+	background-color: FFB803;
+	text-decoration: none;	
+}
+
+h3 {	
+	font-size: 24px;
+	font-family: arial;
+	margin: 0 auto;
+	padding: 75px;
+}
+
+
+p {	
+	font-size: 25px;
+	font-family: arial;
+	margin: 0 auto;
+	padding: 30px;
+}
+
+
+
+#image2{
+	object-position: right;
+}
+
+.reservation {
+	position: absolute;
+	width: 1879.84px;
+	height: 414px;
+
+	background: #D9D9D9;
+}
